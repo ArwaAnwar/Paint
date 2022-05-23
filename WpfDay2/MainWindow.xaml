@@ -1,0 +1,181 @@
+﻿<Window x:Class="WpfDay2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDay2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--#region UniformGrid -->
+    <!--<UniformGrid>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+        <Button Width="70" Height="30"></Button>
+    </UniformGrid>-->
+    <!--#endregion-->
+
+    <!--<Canvas>
+        <Button Canvas.Top="100"
+                Width="70" Height="30"
+               
+                Canvas.Left="50"
+               ></Button>
+    </Canvas>-->
+
+    <!--#region InkCanvas -->
+    <!--<InkCanvas>
+        
+    </InkCanvas>-->
+    <!--#endregion-->
+
+    <!--#region Controls -->
+
+    <!--#region Content Controls -->
+
+    <!--#region Button -->
+ 
+
+        <!--#region IsSedfault/ IsCancel-->
+        <!--<Button IsDefault="True"
+            Width="70"
+            Height="30"
+            Content="IsDefault"
+            Click="Button_Click"
+            Margin="15"
+            />
+    <Button IsCancel="True"
+            Width="70"
+            Height="30"
+            Content="IsCancel"
+            Click="CloseWindow"
+            />-->
+        <!--#endregion-->
+   
+    <!--<Button Width="170" Height="130" 
+          >
+        <Button.ToolTip>
+            <StackPanel>
+                
+            <Label>Click</Label>
+            <Image Source="img12.jpg" Width="100" Height="100" />
+            </StackPanel>
+        </Button.ToolTip>
+        
+
+        <StackPanel>
+            
+        <Label>Click</Label> 
+        <Image Source="img12.jpg" />
+        </StackPanel>
+
+    
+       
+    </Button>-->
+    <!--#endregion-->
+
+
+    <!--#region GroupBox -->
+    <!--<GroupBox Width="200"
+              Height="100"
+              Header="GroupBox1">
+        <StackPanel>
+            
+        <RadioButton >A</RadioButton>
+        <RadioButton >B</RadioButton>
+        </StackPanel>
+        
+        
+    </GroupBox>-->
+   
+
+    <!--#endregion-->
+
+    <!--#region TabControl -->
+
+    <!--<TabControl>
+        <TabItem Header="Tab1">
+            <StackPanel>
+                
+            <CheckBox>A</CheckBox>
+                <CheckBox>B</CheckBox>
+                <CheckBox>C</CheckBox>
+            </StackPanel>
+        </TabItem>
+        <TabItem  Header="Tab2">
+            <GroupBox Width="200"
+              Height="100"
+              Header="GroupBox1">
+                <StackPanel>
+
+                    <RadioButton >A</RadioButton>
+                    <RadioButton >B</RadioButton>
+                </StackPanel>
+
+
+            </GroupBox>
+        </TabItem>
+        <TabItem  Header="Tab3">
+            hello
+        </TabItem>
+        <TabItem  Header="Tab4">
+            Welcom Tab4
+        </TabItem>
+        
+    </TabControl>-->
+    
+    <!--#endregion-->
+
+    <!--#region Expander -->
+
+    <!--<Expander Header="Expander1" ExpandDirection="Right">
+        <GroupBox Width="200"
+              Height="100"
+              Header="GroupBox1">
+            <StackPanel>
+
+                <RadioButton >A</RadioButton>
+                <RadioButton >B</RadioButton>
+            </StackPanel>
+
+
+        </GroupBox>
+        
+    </Expander>-->
+    
+    
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+
+    <!--#region ItemsControl -->
+
+    <!--<ListBox>
+        <ListBoxItem >Item1</ListBoxItem>
+        <ListBoxItem >Item2</ListBoxItem>
+        <ListBoxItem >Item3</ListBoxItem>
+        <ListBoxItem >Item4</ListBoxItem>
+    </ListBox>-->
+    
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+
+    <!--#region TextControl-->
+    <!--<StackPanel>
+
+        <TextBox Height="70" Width="100" IsEnabled="True"> Hamada</TextBox>
+       <RichTextBox   Height="70" Width="100" Background="Yellow"> </RichTextBox>
+        <PasswordBox Height="70" Width="100"></PasswordBox>
+    </StackPanel>-->
+    
+    <!--#endregion-->
+</Window>

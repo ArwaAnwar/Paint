@@ -1,0 +1,151 @@
+﻿<Window x:Class="WpfDay2.Day2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDay2"
+        mc:Ignorable="d"
+        Title="Day2" Height="450" Width="800">
+    <Window.Resources>
+
+        <LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            x:Key="LinearBackground"
+            >
+            <GradientStop Color="Red" Offset=".25"></GradientStop>
+            <GradientStop Color="Orange" Offset=".5"></GradientStop>
+            <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+        </LinearGradientBrush>
+        <Style x:Key="BtnStyle" >
+            <Style.Setters>
+                <Setter Property="Control.Width" Value="70"></Setter>
+                <Setter Property="Control.Height" Value="30"></Setter>
+                <Setter Property="Control.Margin" Value="5"></Setter>
+                <Setter Property="Control.FontFamily" Value="Arial"></Setter>
+                <Setter Property="Control.FontWeight" Value="Bold"></Setter>
+                <Setter Property="Control.Background" Value="{ StaticResource ResourceKey=LinearBackground}"></Setter>
+                <!--<Setter Property="Control.Content" Value="Click"></Setter>-->
+            </Style.Setters>
+            
+        </Style>
+
+
+    </Window.Resources>
+
+    <!--<LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            >
+            <GradientStop Color="Red" Offset=".25"></GradientStop>
+            <GradientStop Color="Orange" Offset=".5"></GradientStop>
+            <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+        </LinearGradientBrush>-->
+    <!--<RadialGradientBrush
+          RadiusY=".7"
+            RadiusX="1"
+            >
+            <GradientStop Color="Red" Offset=".25"></GradientStop>
+            <GradientStop Color="Orange" Offset=".5"></GradientStop>
+            <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+        </RadialGradientBrush>-->
+    <StackPanel>
+
+
+
+        <Button     Style="{StaticResource ResourceKey=BtnStyle}"     />
+        
+        <Button       Content="Click"
+                   Height="30"
+                   Width="70"
+                   Margin="5"
+                   FontFamily="Arial"
+                   FontWeight="Bold"
+                       Background="{ StaticResource ResourceKey=LinearBackground}"
+                   />
+
+        <!--#region BeforResource -->
+        <!--<Button       Content="Click"
+                   Height="30"
+                   Width="70"
+                   Margin="5"
+                   FontFamily="Arial"
+                   FontWeight="Bold"
+                   >
+            <Button.Background>
+                <LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            >
+                    <GradientStop Color="Red" Offset=".25"></GradientStop>
+                    <GradientStop Color="Orange" Offset=".5"></GradientStop>
+                    <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button       Content="Click"
+                   Height="30"
+                   Width="70"
+                   Margin="5"
+                   FontFamily="Arial"
+                   FontWeight="Bold"
+                   >
+            <Button.Background>
+                <LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            >
+                    <GradientStop Color="Red" Offset=".25"></GradientStop>
+                    <GradientStop Color="Orange" Offset=".5"></GradientStop>
+                    <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button       Content="Click"
+                   Height="30"
+                   Width="70"
+                   Margin="5"
+                   FontFamily="Arial"
+                   FontWeight="Bold"
+                   >
+            <Button.Background>
+                <LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            >
+                    <GradientStop Color="Red" Offset=".25"></GradientStop>
+                    <GradientStop Color="Orange" Offset=".5"></GradientStop>
+                    <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button       Content="Click"
+                   Height="30"
+                   Width="70"
+                   Margin="5"
+                   FontFamily="Arial"
+                   FontWeight="Bold"
+                   >
+            <Button.Background>
+                <LinearGradientBrush
+            StartPoint="0,0"
+            EndPoint=".5,.5"
+            SpreadMethod="Reflect"
+            >
+                    <GradientStop Color="Red" Offset=".25"></GradientStop>
+                    <GradientStop Color="Orange" Offset=".5"></GradientStop>
+                    <GradientStop Color="Yellow" Offset=".75"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>-->
+        <!--#endregion-->
+
+    </StackPanel>
+
+
+</Window>
